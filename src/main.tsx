@@ -5,7 +5,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-		test
+		test new push and commit
     <App />
   </StrictMode>,
 )
