@@ -1,0 +1,49 @@
+/* [project]/src/components/Modal/Modal.module.scss.module.css [client] (css) */
+.Modal-module-scss-module__k1ZY8q__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .Modal-module-scss-module__k1ZY8q__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .Modal-module-scss-module__k1ZY8q__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.Modal-module-scss-module__k1ZY8q__modal {
+  text-align: center;
+  z-index: 10;
+  background-color: #161827;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 640px) {
+  .Modal-module-scss-module__k1ZY8q__modal {
+    width: auto;
+  }
+}
+
+.Modal-module-scss-module__k1ZY8q__modal-overlay {
+  z-index: 9;
+  background-color: #00000080;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=src_components_Modal_Modal_module_scss_module_css_65f1660e._.single.css.map*/

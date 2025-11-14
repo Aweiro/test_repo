@@ -1,0 +1,104 @@
+/* [project]/src/modules/shared/layout/TopBar/TopBar.module.scss.module.css [client] (css) */
+.TopBar-module-scss-module__kXPwza__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .TopBar-module-scss-module__kXPwza__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .TopBar-module-scss-module__kXPwza__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar {
+  width: 100%;
+  height: 48px;
+  position: relative;
+}
+
+@media (min-width: 1135px) {
+  .TopBar-module-scss-module__kXPwza__top-bar {
+    height: 64px;
+  }
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar:after {
+  content: "";
+  background-color: #3b3e4a;
+  width: 100vw;
+  height: 1px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+@media (min-width: 640px) {
+  .TopBar-module-scss-module__kXPwza__top-bar {
+    width: auto;
+  }
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar__wrapper {
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-inline: 16px;
+  display: flex;
+}
+
+@media (min-width: 1135px) {
+  .TopBar-module-scss-module__kXPwza__top-bar__wrapper {
+    padding-inline: 24px;
+  }
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar__navigation {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .TopBar-module-scss-module__kXPwza__top-bar__navigation {
+    display: flex;
+  }
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar__left-block {
+  align-items: center;
+  display: flex;
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar__right-block {
+  border-left: 1px solid #3b3e4a;
+  align-items: center;
+  height: 100%;
+  padding-left: 16px;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .TopBar-module-scss-module__kXPwza__top-bar__right-block {
+    display: none;
+  }
+}
+
+.TopBar-module-scss-module__kXPwza__top-bar__logo {
+  display: flex;
+}
+
+@media (min-width: 1135px) {
+  .TopBar-module-scss-module__kXPwza__top-bar__logo {
+    height: 28px;
+  }
+
+  .TopBar-module-scss-module__kXPwza__top-bar__logo img {
+    width: 80px;
+  }
+}
+
+/*# sourceMappingURL=src_modules_shared_layout_TopBar_TopBar_module_scss_module_css_65f1660e._.single.css.map*/

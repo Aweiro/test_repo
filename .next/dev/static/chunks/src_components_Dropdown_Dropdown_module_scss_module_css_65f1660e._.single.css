@@ -1,0 +1,99 @@
+/* [project]/src/components/Dropdown/Dropdown.module.scss.module.css [client] (css) */
+.Dropdown-module-scss-module__B7Ke_G__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .Dropdown-module-scss-module__B7Ke_G__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .Dropdown-module-scss-module__B7Ke_G__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-label {
+  color: #75767f;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-content {
+  position: relative;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-icon {
+  color: #75767f;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-icon.Dropdown-module-scss-module__B7Ke_G__is-open {
+  transform: rotateX(180deg);
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-trigger {
+  box-sizing: border-box;
+  background-color: #323542;
+  border: 1px solid #0000;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 9px 11px;
+  transition: border .3s;
+  display: flex;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-trigger:hover {
+  border: 1px solid #4a4d58;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-trigger:hover .Dropdown-module-scss-module__B7Ke_G__dropdown-icon {
+  color: #4a4d58;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-trigger.Dropdown-module-scss-module__B7Ke_G__is-open {
+  border: 1px solid #905bff;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-menu {
+  visibility: hidden;
+  box-sizing: border-box;
+  z-index: 5;
+  opacity: 0;
+  background-color: #0f1121;
+  border: 1px solid #3b3e4a;
+  padding-block: 8px;
+  transition: all .3s;
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  transform: translateY(-5px);
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-menu.Dropdown-module-scss-module__B7Ke_G__is-open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-item {
+  color: #75767f;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+
+.Dropdown-module-scss-module__B7Ke_G__dropdown-item.Dropdown-module-scss-module__B7Ke_G__is-active {
+  color: #f1f2f9;
+  background-color: #323542;
+}
+
+/*# sourceMappingURL=src_components_Dropdown_Dropdown_module_scss_module_css_65f1660e._.single.css.map*/

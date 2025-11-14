@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/arsenbogak/projects/Portfolio_Project/test_repo/src/pages/index.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <div>\n      <h1>Hello World!</h1>\n      <p>Це моя перша сторінка на Next.js з src папкоюs.</p>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,qKAAC;;0BACC,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
+}

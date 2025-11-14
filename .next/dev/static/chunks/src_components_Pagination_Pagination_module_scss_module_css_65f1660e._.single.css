@@ -1,0 +1,31 @@
+/* [project]/src/components/Pagination/Pagination.module.scss.module.css [client] (css) */
+.Pagination-module-scss-module__1pE-0G__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .Pagination-module-scss-module__1pE-0G__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .Pagination-module-scss-module__1pE-0G__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.Pagination-module-scss-module__1pE-0G__pagination {
+  gap: 16px;
+  height: 32px;
+  display: flex;
+}
+
+.Pagination-module-scss-module__1pE-0G__pagination__pages {
+  gap: 8px;
+  height: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_Pagination_Pagination_module_scss_module_css_65f1660e._.single.css.map*/

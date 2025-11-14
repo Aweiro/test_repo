@@ -1,0 +1,29 @@
+/* [project]/src/components/Loader/Loader.scss.css [client] (css) */
+.Loader {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.Loader__content {
+  border: .3em solid #ddd;
+  border-left-color: #000;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  margin: 1em auto;
+  animation: 1.2s linear infinite load8;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=src_components_Loader_Loader_scss_css_65f1660e._.single.css.map*/

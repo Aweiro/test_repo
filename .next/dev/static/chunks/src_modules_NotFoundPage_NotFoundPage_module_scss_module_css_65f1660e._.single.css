@@ -1,0 +1,33 @@
+/* [project]/src/modules/NotFoundPage/NotFoundPage.module.scss.module.css [client] (css) */
+.NotFoundPage-module-scss-module__kAcvlG__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .NotFoundPage-module-scss-module__kAcvlG__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .NotFoundPage-module-scss-module__kAcvlG__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.NotFoundPage-module-scss-module__kAcvlG__not-found {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.NotFoundPage-module-scss-module__kAcvlG__not-found__title, .NotFoundPage-module-scss-module__kAcvlG__not-found__link {
+  text-align: center;
+}
+
+.NotFoundPage-module-scss-module__kAcvlG__not-found__img {
+  margin-block: 60px;
+}
+
+/*# sourceMappingURL=src_modules_NotFoundPage_NotFoundPage_module_scss_module_css_65f1660e._.single.css.map*/

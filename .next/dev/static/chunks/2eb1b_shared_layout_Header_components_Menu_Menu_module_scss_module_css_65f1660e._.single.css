@@ -1,0 +1,41 @@
+/* [project]/src/modules/shared/layout/Header/components/Menu/Menu.module.scss.module.css [client] (css) */
+.Menu-module-scss-module__9OUOhG__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .Menu-module-scss-module__9OUOhG__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .Menu-module-scss-module__9OUOhG__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.Menu-module-scss-module__9OUOhG__menu {
+  z-index: 100;
+  background-color: #0f1121;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+@media (min-width: 640px) {
+  .Menu-module-scss-module__9OUOhG__menu {
+    display: none;
+  }
+}
+
+.Menu-module-scss-module__9OUOhG__menu__navigation {
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/*# sourceMappingURL=2eb1b_shared_layout_Header_components_Menu_Menu_module_scss_module_css_65f1660e._.single.css.map*/

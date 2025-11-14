@@ -1,0 +1,39 @@
+/* [project]/src/pages/HomePage.module.scss.module.css [client] (css) */
+.HomePage-module-scss-module__jVvdya__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .HomePage-module-scss-module__jVvdya__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .HomePage-module-scss-module__jVvdya__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.HomePage-module-scss-module__jVvdya__welcome {
+  display: block;
+}
+
+.HomePage-module-scss-module__jVvdya__welcome__title {
+  padding-block: 24px;
+}
+
+@media (min-width: 640px) {
+  .HomePage-module-scss-module__jVvdya__welcome__title {
+    padding-block: 32px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .HomePage-module-scss-module__jVvdya__welcome__title {
+    padding-block: 56px;
+  }
+}
+
+/*# sourceMappingURL=src_pages_HomePage_module_scss_module_css_65f1660e._.single.css.map*/

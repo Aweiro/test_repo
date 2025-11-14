@@ -71,3 +71,6 @@ export default defineConfig([
   },
 ])
 ```
+``` my comments
+Vite + TypeScript + Redux + ESLint + Prettier
+```

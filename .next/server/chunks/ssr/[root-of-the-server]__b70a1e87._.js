@@ -1,0 +1,3 @@
+module.exports=[98361,a=>a.a(async(b,c)=>{try{let b=await a.y("react-redux");a.n(b),c()}catch(a){c(a)}},!0),24643,a=>a.a(async(b,c)=>{try{let b=await a.y("@reduxjs/toolkit");a.n(b),c()}catch(a){c(a)}},!0),98543,a=>a.a(async(b,c)=>{try{var d=a.i(24643),e=b([d]);[d]=e.then?(await e)():e;let f=(0,d.configureStore)({reducer:{}});a.s(["store",0,f]),c()}catch(a){c(a)}},!1),68695,a=>a.a(async(b,c)=>{try{var d=a.i(8171),e=a.i(98361),f=a.i(98543),g=b([e,f]);function h({Component:a,pageProps:b}){return(0,d.jsx)(e.Provider,{store:f.store,children:(0,d.jsx)(a,{...b})})}[e,f]=g.then?(await g)():g,a.s(["default",()=>h]),c()}catch(a){c(a)}},!1)];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__b70a1e87._.js.map

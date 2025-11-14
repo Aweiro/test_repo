@@ -1,0 +1,98 @@
+/* [project]/src/modules/shared/layout/Footer/Footer.module.scss.module.css [client] (css) */
+.Footer-module-scss-module__dmy2Ea__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .Footer-module-scss-module__dmy2Ea__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .Footer-module-scss-module__dmy2Ea__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.Footer-module-scss-module__dmy2Ea__footer {
+  position: relative;
+}
+
+.Footer-module-scss-module__dmy2Ea__footer:before {
+  content: "";
+  background-color: #3b3e4a;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Footer-module-scss-module__dmy2Ea__footer__wrapper {
+  flex-direction: column;
+  row-gap: 32px;
+  padding-block: 32px;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .Footer-module-scss-module__dmy2Ea__footer__wrapper {
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+  }
+}
+
+.Footer-module-scss-module__dmy2Ea__footer__logo {
+  flex: 1;
+  display: flex;
+}
+
+.Footer-module-scss-module__dmy2Ea__footer__logo-img {
+  width: 89px;
+  height: 32px;
+}
+
+@media (min-width: 640px) {
+  .Footer-module-scss-module__dmy2Ea__footer__logo-img {
+    height: auto;
+  }
+}
+
+.Footer-module-scss-module__dmy2Ea__footer__nav {
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  row-gap: 16px;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .Footer-module-scss-module__dmy2Ea__footer__nav {
+    flex-direction: row;
+  }
+}
+
+.Footer-module-scss-module__dmy2Ea__footer__button-top {
+  justify-content: end;
+  align-self: center;
+  align-items: center;
+  column-gap: 16px;
+  height: 32px;
+  display: flex;
+}
+
+@media (min-width: 640px) {
+  .Footer-module-scss-module__dmy2Ea__footer__button-top {
+    flex: 1;
+    height: 100%;
+  }
+}
+
+.Footer-module-scss-module__dmy2Ea__footer__button-top-text {
+  color: #75767f;
+}
+
+/*# sourceMappingURL=src_modules_shared_layout_Footer_Footer_module_scss_module_css_65f1660e._.single.css.map*/

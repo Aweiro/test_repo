@@ -1,0 +1,25 @@
+/* [project]/src/components/BackLink/BackLink.module.scss.module.css [client] (css) */
+.BackLink-module-scss-module__oZKMCW__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .BackLink-module-scss-module__oZKMCW__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .BackLink-module-scss-module__oZKMCW__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.BackLink-module-scss-module__oZKMCW__back-link {
+  align-items: center;
+  gap: 4px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_BackLink_BackLink_module_scss_module_css_65f1660e._.single.css.map*/

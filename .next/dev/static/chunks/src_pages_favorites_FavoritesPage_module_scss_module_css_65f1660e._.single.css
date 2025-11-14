@@ -1,0 +1,24 @@
+/* [project]/src/pages/favorites/FavoritesPage.module.scss.module.css [client] (css) */
+.FavoritesPage-module-scss-module__7S0qYq__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .FavoritesPage-module-scss-module__7S0qYq__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .FavoritesPage-module-scss-module__7S0qYq__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.FavoritesPage-module-scss-module__7S0qYq__favorites__empty {
+  text-align: center;
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=src_pages_favorites_FavoritesPage_module_scss_module_css_65f1660e._.single.css.map*/

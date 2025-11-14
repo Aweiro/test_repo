@@ -1,0 +1,40 @@
+/* [project]/src/components/Breadcrumbs/Breadcrumbs.module.scss.module.css [client] (css) */
+.Breadcrumbs-module-scss-module__Ir3W5a__container {
+  padding-inline: 16px;
+}
+
+@media (min-width: 640px) {
+  .Breadcrumbs-module-scss-module__Ir3W5a__container {
+    padding-inline: 24px;
+  }
+}
+
+@media (min-width: 1135px) {
+  .Breadcrumbs-module-scss-module__Ir3W5a__container {
+    max-width: 1136px;
+    margin-inline: auto;
+  }
+}
+
+.Breadcrumbs-module-scss-module__Ir3W5a__breadcrumbs {
+  align-items: center;
+  column-gap: 8px;
+  margin-block: 24px;
+  display: flex;
+}
+
+.Breadcrumbs-module-scss-module__Ir3W5a__breadcrumbs__item {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.Breadcrumbs-module-scss-module__Ir3W5a__breadcrumbs__item.Breadcrumbs-module-scss-module__Ir3W5a__active {
+  color: #75767f;
+}
+
+.Breadcrumbs-module-scss-module__Ir3W5a__breadcrumbs__arrow {
+  color: #4a4d58;
+}
+
+/*# sourceMappingURL=src_components_Breadcrumbs_Breadcrumbs_module_scss_module_css_65f1660e._.single.css.map*/

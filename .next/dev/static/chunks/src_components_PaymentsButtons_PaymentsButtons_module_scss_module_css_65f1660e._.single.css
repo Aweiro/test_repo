@@ -1,0 +1,17 @@
+/* [project]/src/components/PaymentsButtons/PaymentsButtons.module.scss.module.css [client] (css) */
+.PaymentsButtons-module-scss-module__JD2l7G__payments__buttons {
+  gap: 8px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+
+.PaymentsButtons-module-scss-module__JD2l7G__payments__buttons.PaymentsButtons-module-scss-module__JD2l7G__page {
+  height: 48px;
+}
+
+.PaymentsButtons-module-scss-module__JD2l7G__payments__buttons-add {
+  flex: 1;
+}
+
+/*# sourceMappingURL=src_components_PaymentsButtons_PaymentsButtons_module_scss_module_css_65f1660e._.single.css.map*/
