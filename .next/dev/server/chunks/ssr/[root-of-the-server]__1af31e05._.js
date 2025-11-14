@@ -602,7 +602,7 @@ const Dropdown = ({ title, values, defaultValue, searchLabel, className = '', ..
     const [showMenu, setShowMenu] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     const dropdownRef = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useRef"])(null);
     const updateSearch = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$useUpdateSearchParams$2e$ts__$5b$ssr$5d$__$28$ecmascript$29$__["useUpdateSearchParams"])();
-    const paramsKey = searchParams.get(searchLabel);
+    const paramsKey = searchParams?.get(searchLabel);
     const validDefault = defaultValue !== undefined ? defaultValue : values[0];
     const initialLabel = paramsKey ? paramsKey : validDefault;
     (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useEffect"])(()=>{

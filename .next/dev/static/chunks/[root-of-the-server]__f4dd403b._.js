@@ -623,9 +623,6 @@ var ProductsType = /*#__PURE__*/ function(ProductsType) {
     ProductsType["Tablets"] = "tablets";
     return ProductsType;
 }({});
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
 }),
 "[project]/src/components/Loader/Loader.tsx [client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -788,9 +785,6 @@ var ButtonType = /*#__PURE__*/ function(ButtonType) {
     ButtonType["Minus"] = "minus";
     return ButtonType;
 }({});
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
 }),
 "[project]/src/components/ProductCard/ProductCard.module.scss [client] (css module)", ((__turbopack_context__) => {
 
@@ -1555,9 +1549,6 @@ const productColors = {
     green: '#008000',
     midnightgreen: '#004953'
 };
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
 }),
 "[project]/src/utils/getProducts.tsx [client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1589,9 +1580,6 @@ async function getProducts(api) {
         console.error('❌ Failed to parse JSON:', err);
         return [];
     }
-}
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
 "[project]/src/app/services/productsApi.ts [client] (ecmascript)", ((__turbopack_context__) => {

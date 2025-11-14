@@ -1,7 +1,4 @@
 self.__BUILD_MANIFEST = {
-  "/": [
-    "static/chunks/pages/index.js"
-  ],
   "/[...all]": [
     "static/chunks/pages/[...all].js"
   ],
@@ -10,15 +7,6 @@ self.__BUILD_MANIFEST = {
   ],
   "/[category]/[productId]": [
     "static/chunks/pages/[category]/[productId].js"
-  ],
-  "/_error": [
-    "static/chunks/pages/_error.js"
-  ],
-  "/cart": [
-    "static/chunks/pages/cart.js"
-  ],
-  "/favorites": [
-    "static/chunks/pages/favorites.js"
   ],
   "__rewrites": {
     "afterFiles": [],
@@ -34,7 +22,6 @@ self.__BUILD_MANIFEST = {
     "/favorites",
     "/[category]",
     "/[category]/CatalogPage/CatalogPage",
-    "/[category]/ProductDetailsPage",
     "/[category]/ProductDetailsPage/ProductDetailsPage",
     "/[category]/[productId]",
     "/[...all]"

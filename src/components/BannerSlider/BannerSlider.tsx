@@ -45,7 +45,7 @@ export const BannerSlider = () => {
         >
           {bannerImages.map(image => (
             <Image
-              key={image}
+              key={image.src}
               className={styles['banner-slider__slider-image']}
               src={image}
               alt="slide"
@@ -62,7 +62,7 @@ export const BannerSlider = () => {
         {bannerImages.map((image, i) => {
           return (
             <li
-              key={image}
+              key={image.src}
               className={classNames(styles['banner-slider__button'], {
                 [styles['banner-slider__button--active']]: bannerId === i,
               })}

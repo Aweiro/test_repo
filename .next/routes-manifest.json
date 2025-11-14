@@ -19,13 +19,73 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/[category]",
+      "regex": "^/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcategory": "nxtPcategory"
+      },
+      "namedRegex": "^/(?<nxtPcategory>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[category]/CatalogPage/CatalogPage",
+      "regex": "^/([^/]+?)/CatalogPage/CatalogPage(?:/)?$",
+      "routeKeys": {
+        "nxtPcategory": "nxtPcategory"
+      },
+      "namedRegex": "^/(?<nxtPcategory>[^/]+?)/CatalogPage/CatalogPage(?:/)?$"
+    },
+    {
+      "page": "/[category]/ProductDetailsPage/ProductDetailsPage",
+      "regex": "^/([^/]+?)/ProductDetailsPage/ProductDetailsPage(?:/)?$",
+      "routeKeys": {
+        "nxtPcategory": "nxtPcategory"
+      },
+      "namedRegex": "^/(?<nxtPcategory>[^/]+?)/ProductDetailsPage/ProductDetailsPage(?:/)?$"
+    },
+    {
+      "page": "/[category]/[productId]",
+      "regex": "^/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcategory": "nxtPcategory",
+        "nxtPproductId": "nxtPproductId"
+      },
+      "namedRegex": "^/(?<nxtPcategory>[^/]+?)/(?<nxtPproductId>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[...all]",
+      "regex": "^/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPall": "nxtPall"
+      },
+      "namedRegex": "^/(?<nxtPall>.+?)(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
       "regex": "^/(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/cart",
+      "regex": "^/cart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cart(?:/)?$"
+    },
+    {
+      "page": "/components/CategoriesBlock/CategoriesBlock",
+      "regex": "^/components/CategoriesBlock/CategoriesBlock(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/components/CategoriesBlock/CategoriesBlock(?:/)?$"
+    },
+    {
+      "page": "/favorites",
+      "regex": "^/favorites(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favorites(?:/)?$"
     }
   ],
   "dataRoutes": [],

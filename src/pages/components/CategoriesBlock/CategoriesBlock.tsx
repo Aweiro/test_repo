@@ -33,10 +33,12 @@ export const CategoriesBlock: React.FC<Props> = ({ categories }) => {
     <>
       <h2>Shop by category</h2>
       <div className={styles.categories}>
-        {categories.map((categorie) => (
+        {categories?.map((categorie) => (
           <CategorieCard key={categorie.title} categorie={categorie} />
         ))}
       </div>
     </>
   );
 };
+
+export default CategoriesBlock;

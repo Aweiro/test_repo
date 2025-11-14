@@ -1,0 +1,21 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/cart": [
+      "static/chunks/61afa89126d8bb6c.js",
+      "static/chunks/c0d6d93b2c93ae8f.js",
+      "static/chunks/bbabc1675a47b699.js",
+      "static/chunks/e453bb021d0daf93.js",
+      "static/chunks/818a912cfb6099f2.js",
+      "static/chunks/417f4b6ce4470175.css",
+      "static/chunks/f95910b85ec6fd55.css",
+      "static/chunks/5972be6bbd2e9fa5.css",
+      "static/chunks/turbopack-e11c27796a8d8fdb.js"
+    ]
+  },
+  "ampFirstPages": []
+}

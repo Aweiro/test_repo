@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/arsenbogak/projects/Portfolio_Project/test_repo/src/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app';\n// import '../styles/globals.css';\n\nexport default function App({ Component, pageProps }: AppProps) {\n  return (\n    <>\n      <Component {...pageProps} />\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAGe,SAAS,IAAI,EAAE,SAAS,EAAE,SAAS,EAAY;IAC5D,qBACE;kBACE,cAAA,qKAAC;YAAW,GAAG,SAAS;;;;;;;AAG9B","debugId":null}}]
-}

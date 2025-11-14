@@ -107,3 +107,5 @@ export const CatalogPage = () => {
     </section>
   );
 };
+
+export default CatalogPage;

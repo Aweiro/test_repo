@@ -488,9 +488,6 @@ var ProductsType = /*#__PURE__*/ function(ProductsType) {
     ProductsType["Tablets"] = "tablets";
     return ProductsType;
 }({});
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
 }),
 "[project]/src/components/ProductsList/ProductsList.module.scss [client] (css module)", ((__turbopack_context__) => {
 
@@ -618,9 +615,6 @@ var ButtonType = /*#__PURE__*/ function(ButtonType) {
     ButtonType["Minus"] = "minus";
     return ButtonType;
 }({});
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
 }),
 "[project]/src/app/hooks.ts [client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -1298,7 +1292,7 @@ const Dropdown = ({ title, values, defaultValue, searchLabel, className = '', ..
     const [showMenu, setShowMenu] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const dropdownRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const updateSearch = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$hooks$2f$useUpdateSearchParams$2e$ts__$5b$client$5d$__$28$ecmascript$29$__["useUpdateSearchParams"])();
-    const paramsKey = searchParams.get(searchLabel);
+    const paramsKey = searchParams?.get(searchLabel);
     const validDefault = defaultValue !== undefined ? defaultValue : values[0];
     const initialLabel = paramsKey ? paramsKey : validDefault;
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useEffect"])({
@@ -1811,9 +1805,6 @@ async function getProducts(api) {
         console.error('❌ Failed to parse JSON:', err);
         return [];
     }
-}
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
 "[project]/src/app/services/productsApi.ts [client] (ecmascript)", ((__turbopack_context__) => {

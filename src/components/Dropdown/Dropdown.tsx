@@ -25,7 +25,7 @@ export const Dropdown = <T extends string>({
   const [showMenu, setShowMenu] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const updateSearch = useUpdateSearchParams();
-  const paramsKey = searchParams.get(searchLabel);
+  const paramsKey = searchParams?.get(searchLabel);
   const validDefault = defaultValue !== undefined ? defaultValue : values[0];
   const initialLabel = paramsKey ? paramsKey : validDefault;
 
